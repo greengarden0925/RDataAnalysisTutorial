@@ -458,47 +458,17 @@ difftime(test2,test1, units="mins")
 ```
   
 # 8.資料探勘
-## 圖形探勘
 
-<table>
-  <tr>
-    <td>變項</td>
-    <td>範例</td>
-    <td>圖形類別</td>
-    <td>函式</td>
-  </tr>
-  <tr>
-    <td>1個類別</td>
-    <td>性別、教育程度</td>
-    <td>bar chart</td>
-    <td>barplot()</td>
-  </tr>
-  <tr>
-    <td>1個連續</td>
-    <td>身高、體重</td>
-    <td>histogram</td>
-    <td>hist()</td>
-  </tr>
-  <tr>
-    <td>1類別與1連續</td>
-    <td>性別*體重
-性別*年齡</td>
-    <td>boxplot</td>
-    <td>boxplot()</td>
-  </tr>
-  <tr>
-    <td>2類別</td>
-    <td>性別*教育程度</td>
-    <td>table</td>
-    <td>table()</td>
-  </tr>
-  <tr>
-    <td>2連續</td>
-    <td>身高*體重</td>
-    <td>scatter plot</td>
-    <td>plot()</td>
-  </tr>
-</table>
+圖形探勘
+
+| 變項           | 範例                    | 圖形類別       | 函式          |
+| -------------- | ----------------------- | -------------- | ------------- |
+| 1個類別         | 性別、教育程度         | bar chart      | `barplot()`   |
+| 1個連續         | 身高、體重             | histogram      | `hist()`      |
+| 1類別與1連續   | 性別*體重<br>性別*年齡 | boxplot        | `boxplot()`   |
+| 2類別           | 性別*教育程度           | table          | `table()`     |
+| 2連續           | 身高*體重               | scatter plot   | `plot()`      |
+
 
 ```{r , eval=FALSE}
 
