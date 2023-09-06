@@ -2021,93 +2021,54 @@ difftime(test2,test1, units=&quot;mins&quot;)</code></pre>
 </div>
 <div id="資料探勘" class="section level1">
 <h1>8.資料探勘</h1>
-<div id="圖形探勘" class="section level2">
-<h2>圖形探勘</h2>
+<p>圖形探勘</p>
 <table>
-<tr>
-<td>
-變項
-</td>
-<td>
-範例
-</td>
-<td>
-圖形類別
-</td>
-<td>
-函式
-</td>
+<colgroup>
+<col width="21%" />
+<col width="35%" />
+<col width="21%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>變項</th>
+<th>範例</th>
+<th>圖形類別</th>
+<th>函式</th>
 </tr>
-<tr>
-<td>
-1個類別
-</td>
-<td>
-性別、教育程度
-</td>
-<td>
-bar chart
-</td>
-<td>
-barplot()
-</td>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1個類別</td>
+<td>性別、教育程度</td>
+<td>bar chart</td>
+<td><code>barplot()</code></td>
 </tr>
-<tr>
-<td>
-1個連續
-</td>
-<td>
-身高、體重
-</td>
-<td>
-histogram
-</td>
-<td>
-hist()
-</td>
+<tr class="even">
+<td>1個連續</td>
+<td>身高、體重</td>
+<td>histogram</td>
+<td><code>hist()</code></td>
 </tr>
-<tr>
-<td>
-1類別與1連續
-</td>
-<td>
-性別<em>體重 性別</em>年齡
-</td>
-<td>
-boxplot
-</td>
-<td>
-boxplot()
-</td>
+<tr class="odd">
+<td>1類別與1連續</td>
+<td>性別<em>體重<br>性別</em>年齡</td>
+<td>boxplot</td>
+<td><code>boxplot()</code></td>
 </tr>
-<tr>
-<td>
-2類別
-</td>
-<td>
-性別*教育程度
-</td>
-<td>
-table
-</td>
-<td>
-table()
-</td>
+<tr class="even">
+<td>2類別</td>
+<td>性別*教育程度</td>
+<td>table</td>
+<td><code>table()</code></td>
 </tr>
-<tr>
-<td>
-2連續
-</td>
-<td>
-身高*體重
-</td>
-<td>
-scatter plot
-</td>
-<td>
-plot()
-</td>
+<tr class="odd">
+<td>2連續</td>
+<td>身高*體重</td>
+<td>scatter plot</td>
+<td><code>plot()</code></td>
 </tr>
+</tbody>
 </table>
 <pre class="r"><code>#mtcars 為dplyr內建資料
 library(dplyr)
@@ -2134,7 +2095,6 @@ library(skimr)
 skim(Orange)</code></pre>
 <p>進階延伸閱讀:<a href="https://cran.r-project.org/web/packages/skimr/vignettes/skimr.html">Using
 Skimr</a></p>
-</div>
 </div>
 <div id="資料合併" class="section level1">
 <h1>9.資料合併</h1>
