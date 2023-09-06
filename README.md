@@ -1,19 +1,3 @@
----
-title: "R Data analysis"
-subtitle: "2023.09.07"
-author: "Yu-Tien Chang"
-output: 
-  html_document:
-    toc: true 
-    toc_depth: 3
-    toc_float: true 
-    theme: cosmo
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # 延伸閱讀
 
 [Chapter 8 資料基本處理| R 資料科學與統計](https://bookdown.org/jefflinmd38/r4biost/basictidy.html)
